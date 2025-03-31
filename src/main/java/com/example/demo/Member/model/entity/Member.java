@@ -1,4 +1,4 @@
-package com.example.demo.Member.repository.entity;
+package com.example.demo.Member.model.entity;
 
 
 import jakarta.persistence.Entity;
@@ -12,7 +12,7 @@ import lombok.*;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor
 @Getter
-
+@Setter
 
 public class Member {
 
@@ -24,6 +24,6 @@ public class Member {
 
     private String name;
 
-    private String phonenumber;
+    private String PhoneNumber;
 
 }
